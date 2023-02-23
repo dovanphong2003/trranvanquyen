@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: #747ca0;
+}
+a {
+    text-decoration: none;
+}
+
+#app {
+    border-radius: 20px;
+    height: 760px;
+    width: 940px;
+    margin-top: 30px;
+    background-image: url(.//girl.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.from {
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 10px;
+}
+p {
+    cursor: pointer;
+    color: rgb(238, 196, 45);
+}
+p:hover {
+    color: aqua;
+}
+
+.sign {
+    color: #2a3b88;
+}
+.btn {
+    margin-left: 10px;
+    color: #000;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.body {
+    margin: 20px;
+}
+.label {
+    margin: 10px 0;
+    outline: 1px dashed red;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.lb {
+    font-size: 18px;
+}
+.buton {
+    color: aliceblue;
+    font-size: 26px;
+}
+
+button {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #2d3765;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.content_footer {
+}
+
+.bnt_footer {
+    border: none;
+    height: 60px;
+    width: 60%;
+    opacity: 0.6;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bnt_footer:hover {
+    color: yellow;
+    background-color: rgb(255, 160, 160);
+    border: none;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.content_endgame {
+    text-align: center;
+}
+
+.i_content {
+    font-size: 30px;
+    color: rgb(255, 35, 207);
+}
+
+.alabachap {
+    position: absolute;
+    bottom: 50px;
+}
